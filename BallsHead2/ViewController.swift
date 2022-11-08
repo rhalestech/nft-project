@@ -42,8 +42,8 @@ class ViewController: UIViewController {
                                   as URL, options: [:], completionHandler: nil)
     }
     
-//    @IBAction func discord(_ sender: Any) {
-//        UIApplication.shared.open(URL(string:"https://discord.com/invite/Ma8EzkTpgh")!
-//                                  as URL, options: [:], completionHandler: nil)
-//    }
+   @IBAction func discord(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://discord.com/invite/Ma8EzkTpgh")!
+                                  as URL, options: [:], completionHandler: nil)
+  }
 }
