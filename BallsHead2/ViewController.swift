@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
     
     @IBAction func ballshead(_ sender: UIButton) {
@@ -22,6 +22,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func ballsheadcom(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://ballshead.com/")!
+                                  as URL, options: [:], completionHandler: nil)
+        
+    }
     @IBAction func twitter(_ sender: Any) {
         UIApplication.shared.open(URL(string:"https://twitter.com/BallsHeadNFT")!
                                   as URL, options: [:], completionHandler: nil)

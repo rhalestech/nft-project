@@ -16,6 +16,10 @@
 		102F6FB22912F1C10089F74A /* BallsHead2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F6FB12912F1C10089F74A /* BallsHead2Tests.swift */; };
 		102F6FBC2912F1C10089F74A /* BallsHead2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F6FBB2912F1C10089F74A /* BallsHead2UITests.swift */; };
 		102F6FBE2912F1C10089F74A /* BallsHead2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F6FBD2912F1C10089F74A /* BallsHead2UITestsLaunchTests.swift */; };
+		1094BD3B2915BC63004D8DDC /* ArtistPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094BD3A2915BC63004D8DDC /* ArtistPageTableViewController.swift */; };
+		1094BD3D29171A57004D8DDC /* Custom_Cell_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094BD3C29171A57004D8DDC /* Custom_Cell_TableViewCell.swift */; };
+		1094BD3F291723A4004D8DDC /* Model_Struc_character_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094BD3E291723A4004D8DDC /* Model_Struc_character_Info.swift */; };
+		1094BD4129196E26004D8DDC /* ArtistView2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094BD4029196E26004D8DDC /* ArtistView2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		102F6FB72912F1C10089F74A /* BallsHead2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallsHead2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		102F6FBB2912F1C10089F74A /* BallsHead2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsHead2UITests.swift; sourceTree = "<group>"; };
 		102F6FBD2912F1C10089F74A /* BallsHead2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsHead2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1094BD3A2915BC63004D8DDC /* ArtistPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPageTableViewController.swift; sourceTree = "<group>"; };
+		1094BD3C29171A57004D8DDC /* Custom_Cell_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Cell_TableViewCell.swift; sourceTree = "<group>"; };
+		1094BD3E291723A4004D8DDC /* Model_Struc_character_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Struc_character_Info.swift; sourceTree = "<group>"; };
+		1094BD4029196E26004D8DDC /* ArtistView2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				102F6F9E2912F1BF0089F74A /* ViewController.swift */,
 				102F6FA02912F1BF0089F74A /* Main.storyboard */,
 				102F6FA32912F1C00089F74A /* Assets.xcassets */,
+				1094BD4029196E26004D8DDC /* ArtistView2ViewController.swift */,
+				1094BD3E291723A4004D8DDC /* Model_Struc_character_Info.swift */,
+				1094BD3A2915BC63004D8DDC /* ArtistPageTableViewController.swift */,
+				1094BD3C29171A57004D8DDC /* Custom_Cell_TableViewCell.swift */,
 				102F6FA52912F1C10089F74A /* LaunchScreen.storyboard */,
 				102F6FA82912F1C10089F74A /* Info.plist */,
 			);
@@ -258,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1094BD4129196E26004D8DDC /* ArtistView2ViewController.swift in Sources */,
 				102F6F9F2912F1BF0089F74A /* ViewController.swift in Sources */,
+				1094BD3D29171A57004D8DDC /* Custom_Cell_TableViewCell.swift in Sources */,
+				1094BD3F291723A4004D8DDC /* Model_Struc_character_Info.swift in Sources */,
+				1094BD3B2915BC63004D8DDC /* ArtistPageTableViewController.swift in Sources */,
 				102F6F9B2912F1BF0089F74A /* AppDelegate.swift in Sources */,
 				102F6F9D2912F1BF0089F74A /* SceneDelegate.swift in Sources */,
 			);
@@ -435,8 +451,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Qualex Consulting Services, Inc (T6XKEQ76T5)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8733BB6JX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BallsHead2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,8 +468,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qualex.BallsHead2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qlx.BallsHead2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "BallsHead Distribution Profile";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -466,8 +485,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Qualex Consulting Services, Inc (T6XKEQ76T5)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8733BB6JX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BallsHead2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -481,8 +502,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qualex.BallsHead2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qlx.BallsHead2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "BallsHead Distribution Profile";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
