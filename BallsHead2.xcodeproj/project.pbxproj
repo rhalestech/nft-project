@@ -20,6 +20,8 @@
 		1094BD3D29171A57004D8DDC /* Custom_Cell_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094BD3C29171A57004D8DDC /* Custom_Cell_TableViewCell.swift */; };
 		1094BD3F291723A4004D8DDC /* Model_Struc_character_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094BD3E291723A4004D8DDC /* Model_Struc_character_Info.swift */; };
 		1094BD4129196E26004D8DDC /* ArtistView2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094BD4029196E26004D8DDC /* ArtistView2ViewController.swift */; };
+		10F3A7A22921B289005EFC0C /* CharacterDetail_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3A7A12921B289005EFC0C /* CharacterDetail_ViewController.swift */; };
+		55553B61293574D0001858F5 /* AlfaSlabOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55553B60293574D0001858F5 /* AlfaSlabOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		1094BD3C29171A57004D8DDC /* Custom_Cell_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Cell_TableViewCell.swift; sourceTree = "<group>"; };
 		1094BD3E291723A4004D8DDC /* Model_Struc_character_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Struc_character_Info.swift; sourceTree = "<group>"; };
 		1094BD4029196E26004D8DDC /* ArtistView2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView2ViewController.swift; sourceTree = "<group>"; };
+		10F3A7A12921B289005EFC0C /* CharacterDetail_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail_ViewController.swift; sourceTree = "<group>"; };
+		55553B60293574D0001858F5 /* AlfaSlabOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlfaSlabOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		102F6F8E2912F1BF0089F74A = {
 			isa = PBXGroup;
 			children = (
+				10F3A79E291EC1B7005EFC0C /* fonts */,
 				102F6F992912F1BF0089F74A /* BallsHead2 */,
 				102F6FB02912F1C10089F74A /* BallsHead2Tests */,
 				102F6FBA2912F1C10089F74A /* BallsHead2UITests */,
@@ -110,6 +115,7 @@
 				102F6F9A2912F1BF0089F74A /* AppDelegate.swift */,
 				102F6F9C2912F1BF0089F74A /* SceneDelegate.swift */,
 				102F6F9E2912F1BF0089F74A /* ViewController.swift */,
+				10F3A7A12921B289005EFC0C /* CharacterDetail_ViewController.swift */,
 				102F6FA02912F1BF0089F74A /* Main.storyboard */,
 				102F6FA32912F1C00089F74A /* Assets.xcassets */,
 				1094BD4029196E26004D8DDC /* ArtistView2ViewController.swift */,
@@ -137,6 +143,14 @@
 				102F6FBD2912F1C10089F74A /* BallsHead2UITestsLaunchTests.swift */,
 			);
 			path = BallsHead2UITests;
+			sourceTree = "<group>";
+		};
+		10F3A79E291EC1B7005EFC0C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				55553B60293574D0001858F5 /* AlfaSlabOne-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +259,7 @@
 			files = (
 				102F6FA72912F1C10089F74A /* LaunchScreen.storyboard in Resources */,
 				102F6FA42912F1C00089F74A /* Assets.xcassets in Resources */,
+				55553B61293574D0001858F5 /* AlfaSlabOne-Regular.ttf in Resources */,
 				102F6FA22912F1BF0089F74A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +290,7 @@
 				1094BD3D29171A57004D8DDC /* Custom_Cell_TableViewCell.swift in Sources */,
 				1094BD3F291723A4004D8DDC /* Model_Struc_character_Info.swift in Sources */,
 				1094BD3B2915BC63004D8DDC /* ArtistPageTableViewController.swift in Sources */,
+				10F3A7A22921B289005EFC0C /* CharacterDetail_ViewController.swift in Sources */,
 				102F6F9B2912F1BF0089F74A /* AppDelegate.swift in Sources */,
 				102F6F9D2912F1BF0089F74A /* SceneDelegate.swift in Sources */,
 			);
@@ -451,10 +467,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Distribution: Qualex Consulting Services, Inc (T6XKEQ76T5)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S8733BB6JX;
+				DEVELOPMENT_TEAM = T6XKEQ76T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BallsHead2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,13 +486,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qlx.BallsHead2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BallsHead Distribution Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -485,10 +501,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Distribution: Qualex Consulting Services, Inc (T6XKEQ76T5)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S8733BB6JX;
+				DEVELOPMENT_TEAM = T6XKEQ76T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BallsHead2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -504,13 +520,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qlx.BallsHead2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BallsHead Distribution Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

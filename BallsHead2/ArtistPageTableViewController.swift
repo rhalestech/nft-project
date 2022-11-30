@@ -13,6 +13,7 @@ class ArtistPageTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.tintColor = .white
         
 
         // Uncomment the following line to preserve selection between presentations
@@ -39,7 +40,7 @@ class ArtistPageTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! Custom_Cell_TableViewCell
         cell.name.text = "Name: \(characters[indexPath.row].name)"
-        cell.price.text = "Price: \(characters[indexPath.row].price)"
+        cell.price.text = "Price: \(characters[indexPath.row].price) ETH"
         cell.type.text = "Type: \(characters[indexPath.row].type)"
         cell.picture.image = UIImage(named: characters[indexPath.row].picture)
         cell.picture.contentMode = .scaleAspectFit
@@ -85,14 +86,18 @@ class ArtistPageTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if let indexPath = tableView.indexPathForSelectedRow {
+            let vc = segue.destination as! CharacterDetail_ViewController
+            vc.character = characters[indexPath.row]
+        }
     }
-    */
+   
 
 }
