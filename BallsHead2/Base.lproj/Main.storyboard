@@ -224,7 +224,7 @@
                                             <color key="highlightedColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYj-TM-v6L">
-                                            <rect key="frame" x="43" y="132" width="54.333333333333343" height="20.333333333333343"/>
+                                            <rect key="frame" x="43" y="132" width="207" height="20.333333333333343"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20.329999999999998" id="lcL-vl-WbQ"/>
                                             </constraints>
@@ -470,12 +470,6 @@ Diego Armando Sarmiento (#DAS)</string>
                                                     <constraint firstAttribute="width" secondItem="ys1-Gd-WMT" secondAttribute="height" multiplier="1:1" id="PbH-W7-fNR"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3 machine" highlightedImage="3 machine" translatesAutoresizingMaskIntoConstraints="NO" id="13k-Oj-gGI">
-                                                <rect key="frame" x="94" y="1282" width="200" height="200"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="13k-Oj-gGI" secondAttribute="height" multiplier="1:1" id="EU8-kb-v6o"/>
-                                                </constraints>
-                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6 stone wall" translatesAutoresizingMaskIntoConstraints="NO" id="i6D-GO-l7A">
                                                 <rect key="frame" x="94" y="1506" width="200" height="200"/>
                                                 <constraints>
@@ -492,6 +486,12 @@ Diego Armando Sarmiento (#DAS)</string>
                                                 <rect key="frame" x="94" y="822" width="200" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="wwd-Cg-EXD" secondAttribute="height" multiplier="1:1" id="0Tf-Qm-YQs"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3 machine" highlightedImage="3 machine" translatesAutoresizingMaskIntoConstraints="NO" id="13k-Oj-gGI">
+                                                <rect key="frame" x="94" y="1281" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="13k-Oj-gGI" secondAttribute="height" multiplier="1:1" id="EU8-kb-v6o"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
