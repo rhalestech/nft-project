@@ -410,28 +410,20 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </string>
             <objects>
                 <viewController id="f07-4Q-Ylu" customClass="ArtistView2ViewController" customModule="BallsHead2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KhE-sr-v4E">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="1800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXR-QO-8yF">
-                                <rect key="frame" x="0.0" y="47" width="390" height="1719"/>
+                                <rect key="frame" x="0.0" y="47" width="390" height="1919"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFL-BV-S5U">
-                                        <rect key="frame" x="0.0" y="0.0" width="388" height="1800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="4700"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_03 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="3GT-GJ-dsp">
-                                                <rect key="frame" x="0.0" y="0.0" width="388" height="1800"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="388" height="4700"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="1800" id="SEN-kx-2zz"/>
+                                                    <constraint firstAttribute="height" constant="4700" id="SEN-kx-2zz"/>
                                                 </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11 wall" translatesAutoresizingMaskIntoConstraints="NO" id="n2x-x3-f3m">
-                                                <rect key="frame" x="74" y="847" width="135" height="135"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12 statues stone" translatesAutoresizingMaskIntoConstraints="NO" id="lVf-ve-sDL">
-                                                <rect key="frame" x="227" y="847" width="135" height="135"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-5g-yS5">
                                                 <rect key="frame" x="19" y="143" width="350" height="261"/>
@@ -472,42 +464,71 @@ Diego Armando Sarmiento (#DAS)</string>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brick house" translatesAutoresizingMaskIntoConstraints="NO" id="wwd-Cg-EXD">
-                                                <rect key="frame" x="230" y="1003" width="135" height="135"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13 stone" translatesAutoresizingMaskIntoConstraints="NO" id="ys1-Gd-WMT">
+                                                <rect key="frame" x="94" y="1046" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ys1-Gd-WMT" secondAttribute="height" multiplier="1:1" id="PbH-W7-fNR"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6 stone wall" translatesAutoresizingMaskIntoConstraints="NO" id="i6D-GO-l7A">
-                                                <rect key="frame" x="227" y="1146" width="135" height="135"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3 machine" highlightedImage="3 machine" translatesAutoresizingMaskIntoConstraints="NO" id="13k-Oj-gGI">
+                                                <rect key="frame" x="94" y="1282" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="13k-Oj-gGI" secondAttribute="height" multiplier="1:1" id="EU8-kb-v6o"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13 stone" translatesAutoresizingMaskIntoConstraints="NO" id="ys1-Gd-WMT">
-                                                <rect key="frame" x="74" y="1003" width="135" height="135"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6 stone wall" translatesAutoresizingMaskIntoConstraints="NO" id="i6D-GO-l7A">
+                                                <rect key="frame" x="94" y="1506" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="i6D-GO-l7A" secondAttribute="height" multiplier="1:1" id="77y-ri-xHK"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3 machine" highlightedImage="3 machine" translatesAutoresizingMaskIntoConstraints="NO" id="13k-Oj-gGI">
-                                                <rect key="frame" x="84" y="1146" width="135" height="135"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11 wall" translatesAutoresizingMaskIntoConstraints="NO" id="n2x-x3-f3m">
+                                                <rect key="frame" x="94" y="1742" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="n2x-x3-f3m" secondAttribute="height" multiplier="1:1" id="vlV-Rm-Jpr"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brick house" translatesAutoresizingMaskIntoConstraints="NO" id="wwd-Cg-EXD">
+                                                <rect key="frame" x="94" y="822" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="wwd-Cg-EXD" secondAttribute="height" multiplier="1:1" id="0Tf-Qm-YQs"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1800" id="2ch-bE-vjJ"/>
+                                            <constraint firstAttribute="height" constant="4700" id="2ch-bE-vjJ"/>
+                                            <constraint firstItem="n2x-x3-f3m" firstAttribute="top" secondItem="i6D-GO-l7A" secondAttribute="bottom" constant="36" id="4JV-jY-34u"/>
+                                            <constraint firstItem="13k-Oj-gGI" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="94" id="5NB-37-f8R"/>
                                             <constraint firstItem="8Ho-Ye-hT6" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="125" id="B12-gn-BLB"/>
                                             <constraint firstItem="3GT-GJ-dsp" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" id="DAJ-PJ-foF"/>
                                             <constraint firstAttribute="trailing" secondItem="wdS-Bi-B3u" secondAttribute="trailing" constant="19" id="MpJ-eg-Mrk"/>
                                             <constraint firstItem="3GT-GJ-dsp" firstAttribute="top" secondItem="OFL-BV-S5U" secondAttribute="top" id="O3Y-Dp-YCa"/>
+                                            <constraint firstAttribute="trailing" secondItem="13k-Oj-gGI" secondAttribute="trailing" constant="94" id="Oh8-t3-Wlg"/>
                                             <constraint firstItem="KEj-Ec-C0o" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="23" id="QXM-ak-XSH"/>
                                             <constraint firstAttribute="trailing" secondItem="3GT-GJ-dsp" secondAttribute="trailing" id="Te6-rf-DKO"/>
                                             <constraint firstItem="wdS-Bi-B3u" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="19" id="Thd-ri-w86"/>
                                             <constraint firstAttribute="bottom" secondItem="3GT-GJ-dsp" secondAttribute="bottom" id="UEQ-Na-51l"/>
+                                            <constraint firstAttribute="trailing" secondItem="n2x-x3-f3m" secondAttribute="trailing" constant="94" id="VwS-LU-Uou"/>
                                             <constraint firstItem="wdS-Bi-B3u" firstAttribute="top" secondItem="OFL-BV-S5U" secondAttribute="top" constant="24" id="XC1-vf-qEK"/>
                                             <constraint firstAttribute="trailing" secondItem="8Ho-Ye-hT6" secondAttribute="trailing" constant="125" id="YYI-y9-fIq"/>
+                                            <constraint firstItem="ys1-Gd-WMT" firstAttribute="top" secondItem="wwd-Cg-EXD" secondAttribute="bottom" constant="24" id="ZEw-ez-gm4"/>
+                                            <constraint firstItem="i6D-GO-l7A" firstAttribute="top" secondItem="13k-Oj-gGI" secondAttribute="bottom" constant="24" id="d7G-dA-vnz"/>
+                                            <constraint firstItem="ys1-Gd-WMT" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="94" id="eqb-9O-ESE"/>
                                             <constraint firstItem="8Ho-Ye-hT6" firstAttribute="top" secondItem="KEj-Ec-C0o" secondAttribute="bottom" constant="49" id="eyi-3w-Qdb"/>
                                             <constraint firstAttribute="trailing" secondItem="7dg-5g-yS5" secondAttribute="trailing" constant="19" id="i9C-G3-snM"/>
+                                            <constraint firstAttribute="trailing" secondItem="i6D-GO-l7A" secondAttribute="trailing" constant="94" id="iRS-qx-Fn7"/>
+                                            <constraint firstItem="n2x-x3-f3m" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="94" id="j9I-h5-cyS"/>
+                                            <constraint firstItem="i6D-GO-l7A" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="94" id="lOd-cK-v7k"/>
                                             <constraint firstItem="7dg-5g-yS5" firstAttribute="top" secondItem="wdS-Bi-B3u" secondAttribute="bottom" constant="33" id="lWs-pA-YRf"/>
                                             <constraint firstAttribute="trailing" secondItem="KEj-Ec-C0o" secondAttribute="trailing" constant="23" id="mNa-Yr-Kbu"/>
+                                            <constraint firstItem="13k-Oj-gGI" firstAttribute="top" secondItem="ys1-Gd-WMT" secondAttribute="bottom" constant="36" id="s7U-xi-5r3"/>
                                             <constraint firstItem="7dg-5g-yS5" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="19" id="vTh-iZ-btg"/>
+                                            <constraint firstAttribute="trailing" secondItem="ys1-Gd-WMT" secondAttribute="trailing" constant="94" id="vVu-LM-Cx6"/>
+                                            <constraint firstItem="wwd-Cg-EXD" firstAttribute="leading" secondItem="OFL-BV-S5U" secondAttribute="leading" constant="94" id="wQx-4F-sO0"/>
+                                            <constraint firstItem="wwd-Cg-EXD" firstAttribute="top" secondItem="8Ho-Ye-hT6" secondAttribute="bottom" constant="57.670000000000002" id="yBK-Ov-yNA"/>
                                             <constraint firstItem="KEj-Ec-C0o" firstAttribute="top" secondItem="7dg-5g-yS5" secondAttribute="bottom" constant="35" id="yhE-iD-Ggy"/>
+                                            <constraint firstAttribute="trailing" secondItem="wwd-Cg-EXD" secondAttribute="trailing" constant="94" id="zz6-zb-jJ2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -531,7 +552,7 @@ Diego Armando Sarmiento (#DAS)</string>
                     </view>
                     <navigationItem key="navigationItem" id="hrq-2Y-pJ4"/>
                     <nil key="simulatedTopBarMetrics"/>
-                    <size key="freeformSize" width="390" height="1800"/>
+                    <size key="freeformSize" width="390" height="2000"/>
                     <connections>
                         <outlet property="myScroll" destination="zXR-QO-8yF" id="gEo-rw-X35"/>
                         <outlet property="myView" destination="OFL-BV-S5U" id="K0r-ZE-6mW"/>
@@ -560,7 +581,6 @@ Diego Armando Sarmiento (#DAS)</string>
     </scenes>
     <resources>
         <image name="11 wall" width="4880" height="3660"/>
-        <image name="12 statues stone" width="4583" height="3667"/>
         <image name="13 stone" width="4167" height="3378"/>
         <image name="3 machine" width="5000" height="3490"/>
         <image name="6 stone wall" width="4444" height="3333"/>
